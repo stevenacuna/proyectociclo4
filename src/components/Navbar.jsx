@@ -10,19 +10,22 @@ return(
     <div className="collapse navbar-collapse" id="mynavbar">
       <ul className="navbar-nav me-auto">
         <li className="nav-item">
-          <a className="nav-link" href="javascript:void(0)">Link</a>
+          <a className="nav-link" href="javascript:void(0)">Link 1</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="javascript:void(0)">Link</a>
+          <a className="nav-link" href="javascript:void(0)">Link 2</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="javascript:void(0)">Link</a>
+          <a className="nav-link" href="javascript:void(0)">Link 3</a>
         </li>
-      </ul>
-      <form className="d-flex">
-        
+      
+      
+      <form className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+        <input type="search" className="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search"/>
+            
         <button className="btn btn-primary" type="button">Search</button>
       </form>
+      </ul>
     </div>
   </div>
 </nav>
